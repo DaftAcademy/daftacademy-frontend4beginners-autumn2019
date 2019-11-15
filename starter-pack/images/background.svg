@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="800px" viewBox="0 0 1440 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_full</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="800"></rect>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="167.999634%" gradientTransform="translate(0.500000,0.000000),scale(0.564565,1.000000),rotate(88.896992),translate(-0.500000,-0.000000)" id="radialGradient-3">
+            <stop stop-color="#A98E8E" offset="0%"></stop>
+            <stop stop-color="#3B005D" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.706593,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-4">
+            <stop stop-color="#A98E8E" offset="0%"></stop>
+            <stop stop-color="#3B005D" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.922474,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-5">
+            <stop stop-color="#782DA1" offset="0%"></stop>
+            <stop stop-color="#3B005D" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="bg_full" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#180421" x="2" y="0" width="1437" height="800"></rect>
+        <g id="bg" opacity="0.503231957">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group" mask="url(#mask-2)">
+                <g transform="translate(-165.000000, -402.162162)">
+                    <rect id="Rectangle" fill="#2F2233" x="162" y="402.162162" width="1440" height="800"></rect>
+                    <rect id="Rectangle" fill="url(#radialGradient-3)" opacity="0.0807756696" x="165" y="394.594595" width="1440" height="812.972973"></rect>
+                    <polygon id="Triangle" fill="url(#radialGradient-4)" opacity="0.24562872" points="872.370319 0 1746 1207.56757 37 1207.56757"></polygon>
+                    <polygon id="Triangle" fill="url(#radialGradient-5)" opacity="0.247093564" transform="translate(889.500000, 1222.702703) rotate(-180.000000) translate(-889.500000, -1222.702703) " points="870.965625 402.162162 1779 2043.24324 0 2043.24324"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,115 @@
+/*
+Przeglądarki internetowe nadają znacznikom HTML wartości początkowe,
+które się różnią w zależności od producenta (np. Chrome, Firefox, Opera, Internet Explorer, Microsoft Edge).
+Dlatego popularną praktyką jest tworzenie tzw. resetów,
+czyli plików CSS zawierających reguły, które nadpisują te wartości,
+aby były one jednolite niezalenie od przeglądarki.
+
+Więcej na ten temat: https://cssreset.com/what-is-a-css-reset/
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ZAGADNIENIE PONADPROGRAMOWE
+
+Rekomendowany zestaw właściwości, które pozwalają na ukrycie tekstu w taki sposób,
+że będzie niewidoczny do standardowego użytkownika, a czytniki ekranowe wciąż będą go czytać.
+
+Więcej na ten temat: https://webaim.org/techniques/css/invisiblecontent/
+*/
+.screen-reader-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/*
+Sekcja pomocnicza, aby zwizualizować pozycje głównych bloków strony. Będzie usunięta w następnych krokach.
+*/
+.page-header {
+    background-color: #ffb1b1;
+}
+
+.page-content {
+    background-color: #b0ffb0;
+}
+
+.page-footer {
+    background-color: #7ba3ff;
+}
+
+.content-section {
+    background-color: #ca9aca;
+}
+.content-section:nth-child(odd) {
+    background-color: #e69fe6;
+}
+/*
+Koniec sekcji pomocniczej
+*/
+
+/*
+Ustawiając sekcje nagłówka i stopki w pozycji 'fixed' sprawiamy,
+że niezależnie od pozycji paska przewijania elementy te będą znajdowały się
+w tej samej pozycji względem okna przeglądarki.
+Natomiast pozycję tę ustawiamy za pomocą parametrów 'top', 'bottom', 'right', 'left'.
+*/
+.page-header {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+.page-footer {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+}
+
+/*
+Lewy margines ustawiony na kontenerze z główną zawartością strony sprawia,
+że nie będzie ona nachodzić na nagłówek i stopkę niezależnie od pozycji paska przewijania.
+Na projekcie graficznym sekcja menu ma szerokość około 170px i jest oddalona od krawędzi ekranu
+o 50px, więc można założyć, że 220px marginesu będzie wartością stosunkowo bezpieczną.
+Z kolei spady (padding) nadane na kontener wyznaczają minimalną odległość, na jaką będzie oddalona
+treść strony od otaczających ją granic kontenera (wartość "0 10%" jest
+skrótem od padding-top: 0, padding-bottom: 0, padding-left: 10%, padding-right: 10%).
+Właściwość "text-align: right" przykleja zawartość do prawej strony
+(oddziałuje na elementy, które są elementami inline'owymi, np. tekst, znaczniki <a>, <span> czy elementy z nadanym stylem "display: inline-block").
+*/
+.page-content {
+    margin-left: 220px;
+    padding: 0 10%;
+    text-align: right;
+}
+
+/*
+Projekt graficzny zakłada, że każda sekcja strony będzie wypełniać całą wysokość okna przeglądarki
+lub więcej, jeśli zawartość danej sekcji jest wyższa. Dlatego świetnym rozwiązaniem
+będzie użycie jednostki "vh", która oznacza 1% wysokości okna przeglądarki z właściwością "min-height",
+która wymusza wysokość elementu na zadaną wartość lub wyższą.
+*/
+.content-section {
+    min-height: 100vh;
+}

@@ -10,23 +10,14 @@
 Tutaj dzień po zajęciach znajdziecie prezentacje oraz treść zadań domowych.
 
 1. Zaczynamy! ([Prezentacja](assets/Wyklad01_Zaczynamy.pdf))
-
-# Praca domowa - projekt strony internetowej
-
-## Materiały do projektu
-- Wizualizacja na platformie Zeplin: https://zpl.io/scene/Vx1dY8W
-- Zdjęcia i grafiki użyte w wizualizacji: [Link](assets/6BM_zdjecia.zip)
-- Teledysk do umieszczenia na stronie https://youtu.be/AstRXh-vKNI (lub własny, jeśli chcecie)
-- Animacja prezentująca efekt końcowy pracy domowej po wszystkich zajęciach
-
-![animacja](assets/video.gif)
+    - brak pracy domowej po pierwszych zajęciach
 
 # Informacje organizacyjne
 
 ## Komunikacja
 Zajęcia są dla Was. Chcemy abyście wyciągneli z nich jak najwięcej. Dlatego przygotowaliśmy dla was dwa kanały komunikacji z nami. Piszcie jeśli macie pytania w sprawie prac domowych oraz wymieniajcie się doświadczeniami na GitHub Issues.
 - Email: frontend@daftacademy.pl
-- GitHub issues: https://github.com/daftcode/frontend4beginners2019/issues
+- GitHub issues: https://github.com/daftcode/daftacademy-frontend4beginners-autumn2019/issues
 
 ## Obecności na zajęciach
 Jesteśmy firmą technologiczną, także pozbywamy się papieru i zaznaczmy obecność na zajęciach przez internet.
@@ -40,6 +31,18 @@ Jesteśmy firmą technologiczną, także pozbywamy się papieru i zaznaczmy obec
 Jeśli nie masz swojego ulubionego to polecamy:
 
 https://code.visualstudio.com/
+
+# Projekt strony internetowej
+
+## Materiały do projektu
+- Projekt startowy: [Link](starter-pack)
+- Wizualizacja na platformie Zeplin: https://zpl.io/scene/Vx1dY8W
+- Zdjęcia i grafiki użyte w wizualizacji: [Link](assets/6BM_zdjecia.zip)
+- Teledysk do umieszczenia na stronie https://youtu.be/AstRXh-vKNI (lub własny, jeśli chcecie)
+- Animacja prezentująca efekt końcowy pracy domowej po wszystkich zajęciach
+
+![animacja](assets/video.gif)
+
 
 ## Prace domowe
 - Termin oddawania prac domowych - poniedziałek, 23:59 po danych zajęciach

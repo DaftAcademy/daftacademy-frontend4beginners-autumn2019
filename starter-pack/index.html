@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>6BM Band Official Website</title>
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+    </head>
+    <body>
+        <header class="page-header">
+            <h1 class="page-brand">
+                <img src="./images/logo.png" alt="6BM logo" />
+            </h1>
+            <nav class="page-navigation">
+                <ul class="page-navigation__items">
+                    <li class="page-navigation__item">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="page-navigation__item">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-navigation__item">
+                        <a href="#concerts">Concerts</a>
+                    </li>
+                    <li class="page-navigation__item">
+                        <a href="#video">Video</a>
+                    </li>
+                    <li class="page-navigation__item">
+                        <a href="#photos">Photos</a>
+                    </li>
+                    <li class="page-navigation__item">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="page-content">
+            <section id="home" class="content-section">
+                <!--
+                    ZAGADNIENIE PONADPROGRAMOWE
+
+                    Nagłówek 'Home' nie jest pokazany na projekcie graficznym, ale dobrą praktyką
+                    jest umieszczanie nagłówków przy każdej głównej sekcji strony.
+                    Pozwoli to na użytkownikom czytników ekranowych (np. osobom niewidomym lub niedowidzącym)
+                    na zorientowanie się w strukturze naszej strony.
+                    A żeby zachować wygląd strony adekwatny do projektu graficznego,
+                    można utworzyć pomocniczą klasę CSS (np. 'screen-reader-only'),
+                    która będzie ukrywała dany element dla standardowego użytkownika.
+
+                    Należy jednak pamiętać, że ukrywanie elementów strony może obniżyć ranking
+                    pozycjonowania twojej strony (SEO) i powinniśmy starać się umieszczać elementy nagłówkowe
+                    w projekcie graficznym.
+                    Dlatego też trzeba świadomie stosować to rozwiązanie i jeśli bardziej zależy nam na
+                    pozycjonowaniu niż dostępności, wtedy możemy użyć więcej niż jeden znacznik <h1> i
+                    używać go jako głównego nagłówka danych sekcji (w przypadku naszego projektu <h2>
+                    zamienilibyśmy na <h1>, a <h3> na <h2>).
+                -->
+                <h2 class="content-section__header screen-reader-only">Home</h2>
+                <ul class="band-members">
+                    <li class="band-members__item">
+                        <img class="band-members__image" src="./images/band-member01.png" alt="Image of stylized keyboard player's face" />
+                        <p class="band-members__name">Kamil Zgondek</p>
+                        <p class="band-members__desc">Keyboard</p>
+                    </li>
+                    <li class="band-members__item">
+                        <img class="band-members__image" src="./images/band-member02.png" alt="Image of stylized vocalist's face" />
+                        <p class="band-members__name">Łukasz Furman</p>
+                        <p class="band-members__desc">Vocals</p>
+                    </li>
+                    <li class="band-members__item">
+                        <img class="band-members__image" src="./images/band-member03.png" alt="Image of stylized drummer's face" />
+                        <p class="band-members__name">Kamil Majewski</p>
+                        <p class="band-members__desc">Drums</p>
+                    </li>
+                    <li class="band-members__item">
+                        <img class="band-members__image" src="./images/band-member04.png" alt="Image of stylized bassist's face" />
+                        <p class="band-members__name">Daniel Cajzer</p>
+                        <p class="band-members__desc">Bass guitar</p>
+                    </li>
+                </ul>
+
+            </section>
+            <section id="about" class="content-section about-section">
+                <h2 class="content-section__header">About</h2>
+                <img src="./images/band01.jpg" alt="Image of band members standing at the construction site" />
+                <div class="about-section__desc">
+                    <h3 class="about-section__desc-header">Straight from Lublin</h3>
+                    <p class="about-section__desc-details">
+                        6BM is a young band which has it's origins in the city of Lublin, playing music described as electrorock.<br/>
+                        Band members aim to convey emotions, reflexion but also hope.<br/><br/>
+                        They are inspired by various genres, like: alternative rock, nu-metal, synthwave or even drum'n'bass.<br/>
+                        As for now they released their debut EP - TRINITY and they started working on their first full length album.
+                    </p>
+                </div>
+            </section>
+            <section id="concerts" class="content-section">
+                <h2 class="content-section__header">Concerts</h2>
+                <div class="concerts">
+                    <article class="concerts__item">
+                        <img class="concerts__image" src="./images/band02_WiechnikMarcin.jpg" alt="Image of band drummer during a concert" />
+                        <header class="concerts__info">
+                            <p class="concerts__date">20.12.2018</p>
+                            <p class="concerts__location">Lublin, klub XXX</p>
+                            <button class="button">Buy a ticket</button>
+                        </header>
+                    </article>
+                    <article class="concerts__item">
+                        <img class="concerts__image" src="./images/band03_WiechnikMarcin.jpg" alt="Image of band vocalist and keyboard player during a concert" />
+                        <header class="concerts__info">
+                            <p class="concerts__date">20.12.2018</p>
+                            <p class="concerts__location">Lublin, klub XXX</p>
+                            <button class="button">Buy a ticket</button>
+                        </header>
+                    </article>
+                    <article class="concerts__item">
+                        <img class="concerts__image" src="./images/band04_JakubBodys.jpg" alt="Image of band keyboard player during a concert" />
+                        <header class="concerts__info">
+                            <p class="concerts__date">20.12.2018</p>
+                            <p class="concerts__location">Lublin, klub XXX</p>
+                            <button class="button">Buy a ticket</button>
+                        </header>
+                    </article>
+                    <article class="concerts__item">
+                        <img class="concerts__image" src="./images/band05_JakubBodys.jpg" alt="Image of band vocalist during a concert" />
+                        <header class="concerts__info">
+                            <p class="concerts__date">20.12.2018</p>
+                            <p class="concerts__location">Lublin, klub XXX</p>
+                            <button class="button">Buy a ticket</button>
+                        </header>
+                    </article>
+                </div>
+            </section>
+            <section id="video" class="content-section">
+                <h2 class="content-section__header">Video</h2>
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/AstRXh-vKNI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </section>
+            <section id="photos" class="content-section">
+                <h2 class="content-section__header">Photos</h2>
+                <ul class="gallery">
+                    <li class="gallery__item">
+                        <img class="gallery__image" src="./images/band05_JakubBodys.jpg" alt="Image of band vocalist during a concert" />
+                    </li>
+                    <li class="gallery__item">
+                        <img class="gallery__image" src="./images/band06_JakubBodys.jpg" alt="Image of band drummer during a concert" />
+                    </li>
+                    <li class="gallery__item">
+                        <img class="gallery__image" src="./images/band07.jpg" alt="Image of band members at the construction site" />
+                    </li>
+                    <li class="gallery__item">
+                        <img class="gallery__image" src="./images/band08.jpg" alt="Image of band members posing against the wall with graffiti" />
+                    </li>
+                    <li class="gallery__item">
+                        <img class="gallery__image" src="./images/band09.jpg" alt="Image of band members standing in the shadows" />
+                    </li>
+                    <li class="gallery__item">
+                        <img class="gallery__image" src="./images/band10.jpg" alt="Image of band members standing at the construction site" />
+                    </li>
+                    <li class="gallery__item">
+                        <img class="gallery__image" src="./images/band11.jpg" alt="Image of band vocalist during a concert" />
+                    </li>
+                    <li class="gallery__item">
+                        <img class="gallery__image" src="./images/band04_JakubBodys.jpg" alt="Image of band keyboard player during a concert" />
+                    </li>
+                    <li class="gallery__item">
+                        <img class="gallery__image" src="./images/band03_WiechnikMarcin.jpg" alt="Image of band vocalist and keyboard player during a concert" />
+                    </li>
+                </ul>
+            </section>
+            <section id="contact" class="content-section">
+                <h2 class="content-section__header">Contact</h2>
+                <img class="gallery__image" src="./images/band12.jpg" alt="Image of band members posing next to a train" />
+                <address>
+                    Tel: 123 456 789<br/>
+                    E-mail: 6bmmusic@gmail.com
+                </address>
+                <form class="form">
+                    <div class="form__field">
+                        <label class="form__label" for="email">E-mail</label>
+                        <input class="form__input" type="email" name="email" id="email" required />
+                    </div>
+                    <div class="form__field">
+                        <label class="form__label" for="topic">Topic</label>
+                        <input class="form__input" type="text" name="topic" id="topic" required />
+                    </div>
+                    <div class="form__field">
+                        <button class="button" type="submit">Contact us!</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <!--
+                ZAGADNIENIE PONADPROGRAMOWE
+
+                Podobnie jak wyżej, nagłówek jest utworzony dla użytku czytników ekranowych.
+            -->
+            <h2 class="screen-reader-only">Social media links</h2>
+            <ul class="social-links">
+                <li class="social-links__item">
+                    <a class="social-links__link" href="http://facebook.com/">Facebook</a>
+                </li>
+                <li class="social-links__item">
+                    <a class="social-links__link" href="http://instagram.com/">Instagram</a>
+                </li>
+                <li class="social-links__item">
+                    <a class="social-links__link" href="http://last.fm/">Last.fm</a>
+                </li>
+                <li class="social-links__item">
+                    <a class="social-links__link" href="http://youtube.com/">Youtube</a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
