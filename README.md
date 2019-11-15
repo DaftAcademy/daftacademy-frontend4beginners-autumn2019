@@ -72,5 +72,5 @@ Każda aktualizacja projektu to tzw. `commit` czyli opis zmian w porównaniu do 
 Gotową pracę domową wysyłacie do nas w formularzu Google Forms otrzymanym w mailu po zajęciach.
 
 # Pomoc przy pracach domowych, pytania dotyczące treści zajęć
-Zachęcamy do zadawania pytań przez [Issues](https://github.com/daftcode/frontend4beginners2019/issues) tego projektu. Przeglądajcie również pytania innych uczestników, może potraficie na nie odpowiedzieć! :D
+Zachęcamy do zadawania pytań przez [Issues](https://github.com/daftcode/daftacademy-frontend4beginners-autumn2019/issues) tego projektu. Przeglądajcie również pytania innych uczestników, może potraficie na nie odpowiedzieć! :D
 
