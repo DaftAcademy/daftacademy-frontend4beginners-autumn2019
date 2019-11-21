@@ -12,6 +12,27 @@ Tutaj dzień po zajęciach znajdziecie prezentacje oraz treść zadań domowych.
 1. Zaczynamy! ([Prezentacja](assets/Wyklad01_Zaczynamy.pdf))
     - brak pracy domowej po pierwszych zajęciach
 
+2. Nie tylko float: left
+    - Praca domowa: Bazując na wizualizacji (https://zpl.io/scene/Vx1dY8W) zakoduj warstwę wizualną strony:
+        - Wykorzystaj projekt startowy ([link](starter-pack)) jako bazę do zrobienia pracy domowej
+        - Zbuduj finalną strukturę wszystkich sekcji strony
+            * postaraj się dobrać adekwatną technikę do ułożenia danej sekcji (flexbox, grid, position relative/absolute, inline-block)
+        - Zdefiniuj wygląd tekstów na stronie, zwracając uwagę na:
+            * Kolor
+            * Rozmiar tekstu
+            * Pogrubienie lub brak pogrubienia
+            * Letter spacing
+            * Line-height
+            * Opacity
+        - Spraw, aby tło strony pozostawało w tym samym miejscu, niezależnie od paska przewijania
+            * Do osiągnięcia tego efektu zapoznaj się z właściwością "background-attachment"
+            * Pożądany efekt możesz zobaczyć na animacji w materiałach do pracy domowej ([link](https://github.com/daftcode/daftacademy-frontend4beginners-autumn2019/blob/master/README.md#materia%C5%82y-do-projektu))
+        - Ostyluj elementy formularza:
+            * Przyciski (na razie tylko stan "default" z wizualizacji, pozostałe stany obsłużymy na kolejnych zajęciach)
+            * Pola tekstowe
+            * Labelki
+        - Zadbaj o odpowiednie marginesy i paddingi we wszystkich sekcjach strony (odległości od krawędzi ekranu, odległości nagłówków od treści, itp.)
+
 # Informacje organizacyjne
 
 ## Komunikacja
