@@ -34,11 +34,11 @@ Tutaj dzień po zajęciach znajdziecie prezentacje oraz treść zadań domowych.
         - Zadbaj o odpowiednie marginesy i paddingi we wszystkich sekcjach strony (odległości od krawędzi ekranu, odległości nagłówków od treści, itp.)
 3. Małe jest piękne
     - Praca domowa:
-        - Umieść w znaczniku `<head>` strony odpowiedni meta tag, aby lepiej wspierać jej wersję mobilną
-        - Zmodyfikuj elementy `<img>` w sekcji 'gallery' tak, aby zaciągały różne wersje pliku w zależności od gęstości pikseli ekranu (DPR) – potrzebne wersje są już w repozytorium
-        - Skorzystaj z tiny.png, w celu optymalizacji zdjęć sekcji 'concerts' i wykorzystaj zmniejszone wersje w projekcie zamiast oryginalnych
+        - Umieść w znaczniku `<head>` strony odpowiedni meta tag, aby lepiej wspierać jej wersję mobilną.
+        - Zmodyfikuj elementy `<img>` w sekcji 'gallery' tak, aby zaciągały różne wersje pliku w zależności od gęstości pikseli ekranu (DPR) – potrzebne wersje są już w repozytorium ([6BM_zdjecia](assets/6BM_zdjecia.zip)).
+        - Skorzystaj z tiny.png, w celu optymalizacji zdjęć sekcji 'concerts' i wykorzystaj zmniejszone wersje w projekcie zamiast oryginalnych.
         - Wykorzystaj @supports w sekcji 'photos' tak, aby korzystać z grida, jeśli przeglądarka go wspiera. Jeśli nie – inne reguły (np. flex) powinny zapewnić wizualnie taki sam efekt.
-        - Korzystając z media queries zakoduj wersję designu na telefony o wymiarach 360x640px (np. Samsung Galaxy S5) – strona powinna wyglądać schludnie i spójnie, nie ma konkretnego designu.
+        - Korzystając z media queries zakoduj wersję designu na telefony o wymiarach 360x640px (np. Samsung Galaxy S5) – strona powinna wyglądać schludnie i spójnie, nie ma konkretnego designu. Główną nawigację ustaw pionowo na górze strony w normalnym flow dokumentu – po kolejnych zajęciach zmienimy ją w wysuwane hamburger menu.
         - CHALLENGE: Zakoduj stronę tak, aby prezentowała się dobrze na wszystkich urządzeniach o szerokościach ekranu od 360px do 1440px.
 
 # Informacje organizacyjne
