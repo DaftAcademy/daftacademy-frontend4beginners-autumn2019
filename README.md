@@ -32,7 +32,9 @@ Tutaj dzień po zajęciach znajdziecie prezentacje oraz treść zadań domowych.
             * Pola tekstowe
             * Labelki
         - Zadbaj o odpowiednie marginesy i paddingi we wszystkich sekcjach strony (odległości od krawędzi ekranu, odległości nagłówków od treści, itp.)
-3. Małe jest piękne
+    - Wyniki pracy domowej ([link](punktacja-pracy-domowej/zadanie01_punktacja.pdf))
+    - Przykładowe rozwiązanie ([link](przykladowe-rozwiazania/zadanie01))
+3. Małe jest piękne ([Prezentacja](assets/Wyklad03_Male_jest_piekne.pdf))
     - Praca domowa:
         - Umieść w znaczniku `<head>` strony odpowiedni meta tag, aby lepiej wspierać jej wersję mobilną.
         - Zmodyfikuj elementy `<img>` w sekcji 'gallery' tak, aby zaciągały różne wersje pliku w zależności od gęstości pikseli ekranu (DPR) – potrzebne wersje są już w repozytorium ([6BM_zdjecia](assets/6BM_zdjecia.zip)).
