@@ -42,6 +42,12 @@ Tutaj dzień po zajęciach znajdziecie prezentacje oraz treść zadań domowych.
         - Wykorzystaj @supports w sekcji 'photos' tak, aby korzystać z grida, jeśli przeglądarka go wspiera. Jeśli nie – inne reguły (np. flex) powinny zapewnić wizualnie taki sam efekt.
         - Korzystając z media queries zakoduj wersję designu na telefony o wymiarach 360x640px (np. Samsung Galaxy S5) – strona powinna wyglądać schludnie i spójnie, nie ma konkretnego designu. Główną nawigację ustaw pionowo na górze strony w normalnym flow dokumentu – po kolejnych zajęciach zmienimy ją w wysuwane hamburger menu.
         - CHALLENGE: Zakoduj stronę tak, aby prezentowała się dobrze na wszystkich urządzeniach o szerokościach ekranu od 360px do 1440px.
+    - Wyniki pracy domowej ([link](punktacja-pracy-domowej/zadanie02_punktacja.pdf))
+    - Przykładowe rozwiązanie ([link](przykladowe-rozwiazania/zadanie02))
+4. Akcja i reakcja ([Prezentacja](assets/Wyklad04_Akcja_i_reakcja.pdf))
+    - Dodaj hamburger menu do strony dla ekranu 360px - przycisk pokazujący/ukrywający nawigację na szerokości. Menu i przycisk otwierający mogą na razie pozostać nieostylowane, ostylujemy je po kolejnych zajęciach.
+    - Napisz funkcję, która po kliknięciu w przycisk "Kup bilet" w sekcji "Concerts" usunie przycisk i w jego miejscu wyświetli tekst "Have fun!"
+    - Napisz funkcję, która na evencie "submit" formularza kontaktowego wyloguje wpisane wartości do konsoli. (Podpowiedź: użyj funkcji Object.fromEntries w połączeniu z FormData)
 
 # Informacje organizacyjne
 
