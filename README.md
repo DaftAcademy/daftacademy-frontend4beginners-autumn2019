@@ -50,6 +50,7 @@ Tutaj dzień po zajęciach znajdziecie prezentacje oraz treść zadań domowych.
         - Napisz funkcję, która po kliknięciu w przycisk "Kup bilet" w sekcji "Concerts" usunie przycisk i w jego miejscu wyświetli tekst "Have fun!"
         - Napisz funkcję, która na evencie "submit" formularza kontaktowego wyloguje wpisane wartości do konsoli. (Podpowiedź: użyj funkcji Object.fromEntries w połączeniu z FormData)
     - Przykładowe rozwiązanie ([link](przykladowe-rozwiazania/zadanie03))
+5. Fly Me to the Moon ([Prezentacja](https://bit.ly/34efgyp))
 
 # Informacje organizacyjne
 
