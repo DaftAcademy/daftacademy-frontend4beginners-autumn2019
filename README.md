@@ -45,9 +45,11 @@ Tutaj dzień po zajęciach znajdziecie prezentacje oraz treść zadań domowych.
     - Wyniki pracy domowej ([link](punktacja-pracy-domowej/zadanie02_punktacja.pdf))
     - Przykładowe rozwiązanie ([link](przykladowe-rozwiazania/zadanie02))
 4. Akcja i reakcja ([Prezentacja](assets/Wyklad04_Akcja_i_reakcja.pdf))
-    - Dodaj hamburger menu do strony dla ekranu 360px - przycisk pokazujący/ukrywający nawigację na szerokości. Menu i przycisk otwierający mogą na razie pozostać nieostylowane, ostylujemy je po kolejnych zajęciach.
-    - Napisz funkcję, która po kliknięciu w przycisk "Kup bilet" w sekcji "Concerts" usunie przycisk i w jego miejscu wyświetli tekst "Have fun!"
-    - Napisz funkcję, która na evencie "submit" formularza kontaktowego wyloguje wpisane wartości do konsoli. (Podpowiedź: użyj funkcji Object.fromEntries w połączeniu z FormData)
+    - Praca domowa:
+        - Dodaj hamburger menu do strony dla ekranu 360px - przycisk pokazujący/ukrywający nawigację na szerokości. Menu i przycisk otwierający mogą na razie pozostać nieostylowane, ostylujemy je po kolejnych zajęciach.
+        - Napisz funkcję, która po kliknięciu w przycisk "Kup bilet" w sekcji "Concerts" usunie przycisk i w jego miejscu wyświetli tekst "Have fun!"
+        - Napisz funkcję, która na evencie "submit" formularza kontaktowego wyloguje wpisane wartości do konsoli. (Podpowiedź: użyj funkcji Object.fromEntries w połączeniu z FormData)
+    - Przykładowe rozwiązanie ([link](przykladowe-rozwiazania/zadanie03))
 
 # Informacje organizacyjne
 
