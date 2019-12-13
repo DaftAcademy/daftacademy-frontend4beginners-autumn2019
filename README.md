@@ -51,6 +51,18 @@ Tutaj dzień po zajęciach znajdziecie prezentacje oraz treść zadań domowych.
         - Napisz funkcję, która na evencie "submit" formularza kontaktowego wyloguje wpisane wartości do konsoli. (Podpowiedź: użyj funkcji Object.fromEntries w połączeniu z FormData)
     - Przykładowe rozwiązanie ([link](przykladowe-rozwiazania/zadanie03))
 5. Fly Me to the Moon ([Prezentacja](https://bit.ly/34efgyp))
+    - Praca domowa:
+        - Menu
+            - Ostyluj przycisk otwierający menu, tak aby wygladał jak:
+                - hamburger (trzy poziome paski) - przy menu zamkniętym
+                - znak X - przy menu otwartym
+            - Dodaj tranzycje zmiany hamburgera w X oraz tranzycje otwarcia menu.
+        - Zdjęcia w galerii
+            - Dodaj animacje do zdjęć przy interakcji z kursorem (możesz użyć Eventów JS lub pseudo-klasy :hover).
+            - Animacje powinny mieć minimum 3 kroki.
+            - Animacja przy najechaniu kursorem używać powinna transformacji.
+            - Animacja przy opuszczeniu obrazka modyfikować powinna kolory obrazka (filter).
+            - W skrajnych punktach animacji nie powinien wystąpić przeskok.
 
 # Informacje organizacyjne
 
