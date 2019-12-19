@@ -63,6 +63,7 @@ Tutaj dzień po zajęciach znajdziecie prezentacje oraz treść zadań domowych.
             - Animacja przy najechaniu kursorem używać powinna transformacji.
             - Animacja przy opuszczeniu obrazka modyfikować powinna kolory obrazka (filter).
             - W skrajnych punktach animacji nie powinien wystąpić przeskok.
+    - Przykładowe rozwiązanie ([link](przykladowe-rozwiazania/zadanie04))
 
 # Informacje organizacyjne
 
