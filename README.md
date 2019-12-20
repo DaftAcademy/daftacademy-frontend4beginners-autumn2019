@@ -64,6 +64,7 @@ Tutaj dzień po zajęciach znajdziecie prezentacje oraz treść zadań domowych.
             - Animacja przy opuszczeniu obrazka modyfikować powinna kolory obrazka (filter).
             - W skrajnych punktach animacji nie powinien wystąpić przeskok.
     - Przykładowe rozwiązanie ([link](przykladowe-rozwiazania/zadanie04))
+6. Tłumaczymy żarty ([Prezentacja](assets/Wyklad06_Tlumaczymy_zarty.pdf))
 
 # Informacje organizacyjne
 
